@@ -7,6 +7,7 @@ st.set_page_config(page_title="Clasificador Gato vs Perro", layout="centered")
 
 st.title("🐱 Clasificador de Gatos y Perros 🐶")
 st.markdown("Sube una imagen para determinar si es un **gato** o un **perro**.")
+st.markdown("Desarrollado por **José Carlos Torres Donaire**")
 
 @st.cache_resource
 def cargar_modelo():
